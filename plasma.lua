@@ -1,11 +1,5 @@
 
 
-if string.sub(version, 1, 3) == '130' then
-  GRS1.show()
-else
-  messageDialog('Plasma', 'Yeni sürümü indir <3', type, mbYes)
-  closeCE()
-end
 
 function GRS1_CEEdit1Change(sender)
   if GRS1.CEEDit1.Text == plasmaKey() then
